@@ -86,8 +86,7 @@
   left: 0;
 }
 .pull-left{
-  margin-right: 75%;
-  /* float: left; */
+  float: left;
 }
 .pull-right{
   float: right;
@@ -97,6 +96,9 @@
 }
 .disabled,.open{
   pointer-events: none;
+}
+.statusBar{
+  margin-bottom: 30px;
 }
 
 @keyframes App-logo-spin {
